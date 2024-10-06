@@ -1,6 +1,6 @@
 # 🖥️ CPD - Trabalho Prático 1 - Crawler de Busca
 
-Este repositório contém um projeto prático desenvolvido como parte da disciplina de CPD. O objetivo do trabalho é criar um **crawler** 🕷️ para buscar dados de um site de e-commerce e ordenar os produtos coletados por **ordem crescente de preço** 💸. A implementação inclui a utilização de diversos algoritmos de ordenação estudados ao longo do curso.
+Este repositório contém um projeto prático desenvolvido como parte da disciplina de CPD. O objetivo do trabalho é criar um **crawler** 🕷️ para buscar dados de um site de e-commerce e ordenar os produtos coletados por **ordem crescente de preço** 💸. A implementação inclui a utilização BubbleSort de ordenação estudado ao longo da cadeira.
 
 ## 📌 Descrição do Projeto
 
@@ -20,12 +20,13 @@ O projeto é dividido em três partes principais:
 
 ## 📂 Estrutura do Repositório
 
-- **📄 crawler.py**: Script principal contendo a lógica do crawler e a ordenação dos dados.
 - **📄 app.py**: Script contendo a aplicação Flask para criar uma interface web para o projeto.
+- **📄 crawler_logic.py**: Lógica principal do crawler e a ordenação dos dados.
 - **📑 README.md**: Documentação do projeto, incluindo instruções de uso e descrição dos objetivos.
 - **📦 requirements.txt**: Lista de dependências para instalar as bibliotecas necessárias.
-- **📄 templates/index.html**: Página inicial para iniciar o scraping.
-- **📄 templates/results.html**: Página de resultados para exibir os produtos ordenados.
+- **📂 templates**:
+  - **📄 index.html**: Página inicial para iniciar o scraping.
+  - **📄 results.html**: Página de resultados para exibir os produtos ordenados.
 
 ## 🚀 Execução do Projeto
 
@@ -46,8 +47,8 @@ Para executar o projeto localmente, siga as instruções abaixo:
 
 ## 👥 Colaboradores
 
-- **👤 Daniel**: Coleta de dados e implementação do crawler.
-- **👤 Brayan**: Implementação do algoritmo de ordenação e desenvolvimento da interface web.
+- **👤 Daniel**: ??
+- **👤 Brayan**: ??
 
 ## 📢 Observação
 
@@ -60,3 +61,8 @@ Duração de 5 a 10 minutos, abordando as seguintes etapas: site utilizado, algo
 ## 📝 Organização
 
 - **Notion**: [Link para a organização do projeto](https://www.notion.so/CPD-TRABALHO-cb9ead442bc34965897eefdf3d5bee80?pvs=4)
+
+## 💡 Interface do Usuário
+
+- **Página Inicial**: O usuário pode escolher de qual site deseja buscar os produtos (laptops, tablets, telefones).
+- **Resultados**: Exibe os produtos encontrados, seus preços e, em uma seção separada, informações sobre itens que não foram capturados corretamente ou que apresentaram erros.
