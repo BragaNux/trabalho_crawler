@@ -12,16 +12,20 @@ O projeto é dividido em três partes principais:
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Linguagem de Programação**: _[linguagem utilizada]_
+- **Linguagem de Programação**: Python
 - **Bibliotecas**:
-  - **_[Biblioteca]_**: Para realizar requisições HTTP e obter o HTML das páginas.
-  - **_[Biblioteca]_**: Para fazer o parsing do HTML e extrair os dados necessários.
+  - **Requests**: Para realizar requisições HTTP e obter o HTML das páginas.
+  - **BeautifulSoup**: Para fazer o parsing do HTML e extrair os dados necessários.
+  - **Flask**: Para criar uma interface web e permitir a interação com o script.
 
 ## 📂 Estrutura do Repositório
 
 - **📄 crawler.py**: Script principal contendo a lógica do crawler e a ordenação dos dados.
+- **📄 app.py**: Script contendo a aplicação Flask para criar uma interface web para o projeto.
 - **📑 README.md**: Documentação do projeto, incluindo instruções de uso e descrição dos objetivos.
 - **📦 requirements.txt**: Lista de dependências para instalar as bibliotecas necessárias.
+- **📄 templates/index.html**: Página inicial para iniciar o scraping.
+- **📄 templates/results.html**: Página de resultados para exibir os produtos ordenados.
 
 ## 🚀 Execução do Projeto
 
@@ -35,15 +39,15 @@ Para executar o projeto localmente, siga as instruções abaixo:
    ```sh
    pip install -r requirements.txt
    ```
-3. **Execute o script principal**:
+3. **Execute a aplicação Flask**:
    ```sh
-   python crawler.py
+   python app.py
    ```
 
 ## 👥 Colaboradores
 
-- **👤 Daniel**: _[Responsabilidades]_
-- **👤 Brayan**: _[Responsabilidades]_
+- **👤 Daniel**: Coleta de dados e implementação do crawler.
+- **👤 Brayan**: Implementação do algoritmo de ordenação e desenvolvimento da interface web.
 
 ## 📢 Observação
 
