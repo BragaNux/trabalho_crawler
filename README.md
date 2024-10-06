@@ -1,7 +1,6 @@
-# trabalho_crawler
-Desenvolver um crawler para buscar os dados do site e ordenar por ordem crescente o valor dos produtos/chave.
+# 🖥️ CPD - Trabalho Prático 1 - Crawler de Busca
 
-# 🖥️ CPD - Trabalho Prático 1
+Objetivo Principal: Desenvolver um crawler para buscar os dados do site e ordenar por ordem crescente o valor dos produtos/chave.
 
 Este repositório contém um projeto prático desenvolvido como parte da disciplina de CPD. O objetivo do trabalho é criar um **crawler** 🕷️ para buscar dados de um site de e-commerce e ordenar os produtos coletados por **ordem crescente de preço** 💸. A implementação inclui a utilização de diversos algoritmos de ordenação estudados ao longo do curso.
 
