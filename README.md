@@ -12,10 +12,10 @@ O projeto é dividido em três partes principais:
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Linguagem de Programação**: _[Preencher com a linguagem utilizada]_
+- **Linguagem de Programação**: _[linguagem utilizada]_
 - **Bibliotecas**:
-  - **_[Nome da Biblioteca]_**: Para realizar requisições HTTP e obter o HTML das páginas.
-  - **_[Nome da Biblioteca]_**: Para fazer o parsing do HTML e extrair os dados necessários.
+  - **_[Biblioteca]_**: Para realizar requisições HTTP e obter o HTML das páginas.
+  - **_[Biblioteca]_**: Para fazer o parsing do HTML e extrair os dados necessários.
 
 ## 📂 Estrutura do Repositório
 
@@ -42,8 +42,8 @@ Para executar o projeto localmente, siga as instruções abaixo:
 
 ## 👥 Colaboradores
 
-- **👤 Daniel**: _[Responsabilidades de Daniel]_
-- **👤 Brayan**: _[Responsabilidades de Brayan]_
+- **👤 Daniel**: _[Responsabilidades]_
+- **👤 Brayan**: _[Responsabilidades]_
 
 ## 📢 Observação
 
