@@ -3,15 +3,3 @@ Flask
 requests 
 beautifulsoup4 
 Jinja2
-
-
-Este código faz o seguinte:
-
-1 - Scraping dos Produtos: Usa requests para baixar o HTML de um site de teste de e-commerce e BeautifulSoup para extrair os nomes e preços dos produtos.
-2 - Armazenamento em Lista: Guarda os produtos em uma lista de tuplas (nome, preço).
-3 - Ordenação com Bubble Sort: Ordena os produtos pelo preço em ordem crescente.
-4 - Exibição dos Resultados: Mostra a lista de produtos antes e depois da ordenação.
-
-Precisa instalar:
-
-pip install requests beautifulsoup4
