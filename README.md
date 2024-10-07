@@ -49,8 +49,8 @@ sh
 
 ## 👥 Colaboradores
 
-- **👤 Brayan**
-- **👤 Daniel**
+- **👤 Brayan Martins**
+- **👤 Carlos Daniel Martins**
 
 ## 📢 Observação
 
