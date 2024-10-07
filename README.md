@@ -1,55 +1,71 @@
-🖥️ CPD - Trabalho Prático 1 - Crawler de Busca
-Este repositório contém o projeto prático desenvolvido como parte da disciplina de CPD. O objetivo é criar um crawler 📡 que busca dados de um site de e-commerce e ordena os produtos coletados por ordem crescente de preço 💸. A implementação inclui a utilização do algoritmo BubbleSort, estudado ao longo da disciplina.
+# 🖥️ CPD - Trabalho Prático 1 - Crawler de Busca
 
-📌 Descrição do Projeto
+Este repositório contém um projeto prático desenvolvido como parte da disciplina de CPD. O objetivo do trabalho é criar um **crawler** 📡 para buscar dados de um site de e-commerce e ordenar os produtos coletados por **ordem crescente de preço** 💸. A implementação inclui a utilização BubbleSort de ordenação estudado ao longo da cadeira.
+
+## 📌 Descrição do Projeto
+
 O projeto é dividido em três partes principais:
 
-Coleta de Dados 📊: Uso de um crawler para extrair informações dos produtos de e-commerce.
-Ordenação dos Produtos 🔄: Aplicação do algoritmo BubbleSort para organizar a lista de produtos em ordem crescente de preço.
-Ordenação Externa (Opcional) 💾: Implementação opcional de um algoritmo de ordenação externa para lidar com grandes volumes de dados que não cabem na memória.
-🛠️ Tecnologias Utilizadas
-Linguagem de Programação: Python
-Bibliotecas:
-Requests: Realiza requisições HTTP para obter o HTML das páginas.
-BeautifulSoup: Faz o parsing do HTML e extrai os dados dos produtos.
-Flask: Cria uma interface web para interagir com o script de maneira simples.
-📂 Estrutura do Repositório
-📄 app.py: Contém a aplicação Flask, que fornece a interface web para o projeto..
-📑 README.md: Documentação com instruções de uso e descrição do projeto.
-📦 requirements.txt: Lista de dependências do projeto, como as bibliotecas necessárias.
-📂 templates:
-📄 index.html: Página inicial onde o usuário seleciona o site para buscar os produtos.
-📄 results.html: Exibe os produtos encontrados e ordenados, além de itens com erros.
-🚀 Como Executar o Projeto
-Siga as instruções abaixo para rodar o projeto localmente:
+1. **Coleta de Dados** 📊: Utilização de um crawler para extrair informações dos produtos.
+2. **Ordenação dos Produtos** 🔄: Aplicação de um algoritmo de ordenação para ordenar a lista de produtos em ordem crescente de preço.
+3. **Ordenação Externa (Opcional)** 💾: Implementação de um algoritmo de ordenação externa para grandes volumes de dados que não cabem na memória.
 
-Clone o repositório:
-sh
-Copiar código
-git clone <link_do_repositorio>
-Instale as dependências:
-sh
-Copiar código
-pip install -r requirements.txt
-Execute a aplicação Flask:
-sh
-Copiar código
-python app.py
-Acesse o site local no navegador, normalmente em http://127.0.0.1:5000.
+## 🛠️ Tecnologias Utilizadas
 
-👥 Colaboradores
-👤 Daniel: ??
-👤 Brayan: ??
-📢 Observações
-A apresentação deve ter entre 5 e 10 minutos, abordando as seguintes etapas:
+- **Linguagem de Programação**: Python
+- **Bibliotecas**:
+  - **Requests**: Para realizar requisições HTTP e obter o HTML das páginas.
+  - **BeautifulSoup**: Para fazer o parsing do HTML e extrair os dados necessários.
+  - **Flask**: Para criar uma interface web e permitir a interação com o script.
 
-Site utilizado: Qual site de e-commerce foi escolhido para o projeto.
-Algoritmo de ordenação: Justificativa do uso do BubbleSort.
-Resultados obtidos: Principais resultados da ordenação dos produtos.
-📊 Apresentação
-Canva: Link para a apresentação
-📝 Organização do Projeto
-Notion: Link para organização do projeto no Notion
-💡 Interface do Usuário
-Página Inicial: O usuário seleciona o site de e-commerce de onde deseja buscar os produtos (como laptops, tablets ou telefones).
-Página de Resultados: Exibe os produtos encontrados, seus preços e, em uma seção separada, os itens que não foram capturados corretamente ou apresentaram erros.
+## 📂 Estrutura do Repositório
+
+- **📄 app.py**: Script contendo a aplicação Flask para criar uma interface web para o projeto.
+- **📄 crawler_logic.py**: Lógica principal do crawler e a ordenação dos dados.
+- **📑 README.md**: Documentação do projeto, incluindo instruções de uso e descrição dos objetivos.
+- **📦 requirements.txt**: Lista de dependências para instalar as bibliotecas necessárias.
+- **📂 templates**:
+  - **📄 index.html**: Página inicial para iniciar o scraping.
+  - **📄 results.html**: Página de resultados para exibir os produtos ordenados.
+
+## 🚀 Execução do Projeto
+
+Para executar o projeto localmente, siga as instruções abaixo:
+
+1. **Clone o repositório**:
+   
+sh
+   git clone <link_do_repositorio>
+
+2. **Instale as dependências**:
+   
+sh
+   pip install -r requirements.txt
+
+3. **Execute a aplicação Flask**:
+   
+sh
+   python app.py
+
+
+## 👥 Colaboradores
+
+- **👤 Daniel**: ??
+- **👤 Brayan**: ??
+
+## 📢 Observação
+
+Duração de 5 a 10 minutos, abordando as seguintes etapas: site utilizado, algoritmo de ordenação escolhido, justificativa das escolhas e resultados obtidos.
+
+## 📊 Apresentação
+
+- **Canva**: [Link para a apresentação](https://www.canva.com/design/DAGS0xTnHAA/P7iUJkR6VQB10-Ij0-7_Cw/edit?utm_content=DAGS0xTnHAA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+## 📝 Organização
+
+- **Notion**: [Link para a organização do projeto](https://www.notion.so/CPD-TRABALHO-cb9ead442bc34965897eefdf3d5bee80?pvs=4)
+
+## 💡 Interface do Usuário
+
+- **Página Inicial**: O usuário pode escolher de qual site deseja buscar os produtos (laptops, tablets, telefones).
+- **Resultados**: Exibe os produtos encontrados, seus preços e, em uma seção separada, informações sobre itens que não foram capturados corretamente ou que apresentaram erros.
