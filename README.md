@@ -21,7 +21,6 @@ O projeto é dividido em três partes principais:
 ## 📂 Estrutura do Repositório
 
 - **📄 app.py**: Script contendo a aplicação Flask para criar uma interface web para o projeto.
-- **📄 crawler_logic.py**: Lógica principal do crawler e a ordenação dos dados.
 - **📑 README.md**: Documentação do projeto, incluindo instruções de uso e descrição dos objetivos.
 - **📦 requirements.txt**: Lista de dependências para instalar as bibliotecas necessárias.
 - **📂 templates**:
@@ -57,10 +56,6 @@ sh
 
 Duração de 5 a 10 minutos, abordando as seguintes etapas: site utilizado, algoritmo de ordenação escolhido, justificativa das escolhas e resultados obtidos.
 
-## 📊 Apresentação
-
-- **Canva**: [Link para a apresentação](https://www.canva.com/design/DAGS0xTnHAA/P7iUJkR6VQB10-Ij0-7_Cw/edit?utm_content=DAGS0xTnHAA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-
 ## 📝 Organização
 
 - **Notion**: [Link para a organização do projeto](https://www.notion.so/CPD-TRABALHO-cb9ead442bc34965897eefdf3d5bee80?pvs=4)
@@ -69,3 +64,8 @@ Duração de 5 a 10 minutos, abordando as seguintes etapas: site utilizado, algo
 
 - **Página Inicial**: O usuário pode escolher de qual site deseja buscar os produtos (laptops, tablets, telefones).
 - **Resultados**: Exibe os produtos encontrados, seus preços e, em uma seção separada, informações sobre itens que não foram capturados corretamente ou que apresentaram erros.
+
+## 🔗 Sites utilizados
+
+- **http://books.toscrape.com**
+- **https://bn.craigslist.org/search**
