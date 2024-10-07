@@ -12,7 +12,7 @@ O projeto é dividido em três partes principais:
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Linguagem de Programação**: Python
+- **Linguagem de Programação**: Python & HTML
 - **Bibliotecas**:
   - **Requests**: Para realizar requisições HTTP e obter o HTML das páginas.
   - **BeautifulSoup**: Para fazer o parsing do HTML e extrair os dados necessários.
