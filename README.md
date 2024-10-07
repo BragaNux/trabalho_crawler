@@ -77,3 +77,7 @@ Duração de 5 a 10 minutos, abordando as seguintes etapas: site utilizado, algo
 - [Documentação do Flask](https://flask.palletsprojects.com/en/3.0.x/)
 - [Ordenação Externa](https://www.geeksforgeeks.org/external-sorting/)
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+
+## 🎥 Video
+
+- [CPD - TRABALHO CRAWLER](https://youtu.be/I2O1biixYlI)
