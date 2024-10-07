@@ -67,5 +67,5 @@ Duração de 5 a 10 minutos, abordando as seguintes etapas: site utilizado, algo
 
 ## 🔗 Sites utilizados
 
-- **http://books.toscrape.com**
-- **https://bn.craigslist.org/search**
+- [Books to Scrape](http://books.toscrape.com)
+- [Craigslist](https://bn.craigslist.org/search/ata#search=1~gallery~0~0)
