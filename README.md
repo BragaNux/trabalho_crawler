@@ -49,8 +49,8 @@ sh
 
 ## 👥 Colaboradores
 
-- **👤 Daniel**: ??
-- **👤 Brayan**: ??
+- **👤 Brayan**
+- **👤 Daniel**
 
 ## 📢 Observação
 
