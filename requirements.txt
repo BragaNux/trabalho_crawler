@@ -3,7 +3,7 @@ Flask
 requests 
 beautifulsoup4 
 Jinja2
-
+selenium
 
 Este código faz o seguinte:
 
