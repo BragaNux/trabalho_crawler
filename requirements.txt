@@ -3,8 +3,6 @@ Flask
 requests 
 beautifulsoup4 
 Jinja2
-selenium
-webdriver-manager (gerencia os drivers, uso do firefoz)
 
 
 Este código faz o seguinte:
