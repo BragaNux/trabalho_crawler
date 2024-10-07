@@ -1,6 +1,6 @@
 # 🖥️ CPD - Trabalho Prático 1 - Crawler de Busca
 
-Este repositório contém um projeto prático desenvolvido como parte da disciplina de CPD. O objetivo do trabalho é criar um **crawler** 📡 para buscar dados de um site de e-commerce e ordenar os produtos coletados por **ordem crescente de preço** 💸. A implementação inclui a utilização BubbleSort de ordenação estudado ao longo da cadeira.
+Este repositório contém um projeto prático desenvolvido como parte da disciplina de CPD. O objetivo do trabalho é criar um **crawler** 📡 para buscar dados de um site de e-commerce e ordenar os produtos coletados por **ordem crescente de preço** 💸. A implementação inclui a utilização BubbleSort de ordenação estudado ao longo da cadeira e uma versão pra trabalhar com externo.
 
 ## 📌 Descrição do Projeto
 
