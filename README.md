@@ -69,3 +69,11 @@ Duração de 5 a 10 minutos, abordando as seguintes etapas: site utilizado, algo
 
 - [Books to Scrape](http://books.toscrape.com)
 - [Craigslist](https://bn.craigslist.org/search/ata#search=1~gallery~0~0)
+
+## 📄 Documentos Utilizados
+
+- [Documentação do BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc)
+- [Documentação do Requests](https://requests.readthedocs.io/en/latest/)
+- [Documentação do Flask](https://flask.palletsprojects.com/en/3.0.x/)
+- [Ordenação Externa](https://www.geeksforgeeks.org/external-sorting/)
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
